@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameOfLifeBL\GameOfLifeBL.csproj">
+      <Project>{A0525340-A249-4118-9602-94E499338F0B}</Project>
+      <Name>GameOfLifeBL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
